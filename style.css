@@ -1,0 +1,179 @@
+.enhaut {
+  position: fixed;
+  top: 0;
+  background: white;
+  color: black;
+  width: 100%;
+  padding: 2px;
+  text-align: center;
+}
+
+.logods {
+    width: 150px;
+}
+
+.video-header {
+  position: absolute;
+  text-align: center;
+  width: 100vw;
+  height: 100vh;
+}
+.video-header, .video-header video, .video-header .viewport-header {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.video-header video {
+  background: brown;
+  object-fit: cover;
+}
+.video-header .viewport-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+body {
+  background-color: #040C1A;
+font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: smaller;
+  text-align: center;
+}
+
+#menu {
+  display: flex;
+  justify-content:center; 
+  justify-content:space-evenly;
+font-family: 'Open Sans', sans-serif;
+}
+
+#menu a:hover {
+  color: gold;
+  font-size: large;
+  transition: all 0.2s ease-out;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+main {
+  background: #040C1A;
+  padding: 1rem;
+  margin-top: 100vh;
+font-family: 'Open Sans', sans-serif;
+ color: white;
+ text-align: center;
+}
+
+#maro {
+  font-size: x-large;
+}
+
+p {
+font-family: 'Open Sans', sans-serif;
+}
+
+img {
+  max-width: 99%;
+  max-height: 99%;
+  border-radius: 1%;
+}
+
+center {
+  font-family: 'Trebuchet MS';
+  font-weight: bold;
+}
+
+.colonne {
+  width: 100%;
+  padding: 11px;
+  justify-content: center;
+}
+
+.colonne img:hover {
+  opacity:  0.3;
+  transition: all 1s ease-out;
+  cursor: pointer;
+}
+
+.configurer img:hover .lien_configurer{
+  visibility: visible;
+  opacity: 1;
+}
+
+.troisieme {
+  width: 50%;
+  justify-content: center;
+}
+
+#essai .lien_essai {
+  visibility: hidden;
+}
+
+#essai:hover .lien_essai {
+  visibility: visible;
+}
+
+#configurer .lien_configurer {
+  visibility: hidden;
+}
+
+#configurer:hover .lien_configurer {
+  visibility: visible;
+}
+
+.troisieme {
+  width: 100%;
+}
+
+.enbas {
+  bottom: 0;
+  background: white;
+  color: black;
+  width: 100%;
+  padding: 2px;
+  text-align: center;
+}
+
+#reseaux {
+    display: flex;
+  justify-content:space-evenly;
+}
+
+#parfum {
+  margin:  0 auto ;
+}
+
+.button {
+  background-color: pink;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid pink;
+}
+
+.button1:hover {
+  background-color: pink;
+  color: black;
+}
